@@ -1,3 +1,4 @@
+'use strict';
 const core = require('../rockPaperScissors');
 const assert = require('chai').assert;
 let nonce = 0;
@@ -20,7 +21,7 @@ describe('Game rockPaperScissors suite', () => {
     });
 
 
-});
+}); 
 
 
 
